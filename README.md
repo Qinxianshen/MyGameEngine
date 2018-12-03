@@ -67,33 +67,20 @@
 
 
 
-1.从零开始敲次世代游戏引擎（一）-- 初建项目，git使用
+1.[从零开始敲次世代游戏引擎（一）-- 初建项目，git使用](https://zhuanlan.zhihu.com/p/28589792)
 
 
-[文字教程](https://zhuanlan.zhihu.com/p/28589792)
-
-2.从零开始敲次世代游戏引擎（二）-- Windows环境clang编译环境构建
+2.[从零开始敲次世代游戏引擎（二）-- Windows环境clang编译环境构建](https://zhuanlan.zhihu.com/p/28598462)
 
 
-[文字教程](https://zhuanlan.zhihu.com/p/28598462)
+3.[从零开始敲次世代游戏引擎（三）-- Linux环境的clang环境搭建](https://zhuanlan.zhihu.com/p/28619982)
 
 
-3.从零开始敲次世代游戏引擎（三）-- Linux环境的clang环境搭建
+
+4.[从零开始敲次世代游戏引擎（四）-- 游戏引擎设计方法论](https://zhuanlan.zhihu.com/p/28615565)
 
 
-[文字教程](https://zhuanlan.zhihu.com/p/28619982)
-
-
-4.从零开始敲次世代游戏引擎（四）-- 游戏引擎设计方法论
-
-
-[文字教程](https://zhuanlan.zhihu.com/p/28615565)
-
-
-5.从零开始敲次世代游戏引擎（五）-- 游戏引擎框架初建
-
-
-[文字教程](https://zhuanlan.zhihu.com/p/28619982)
+5.[从零开始敲次世代游戏引擎（五）-- 游戏引擎框架初建](https://zhuanlan.zhihu.com/p/28619982)
 
 
 6.[从0开始敲次世代引擎（六）--图形界面初入](https://zhuanlan.zhihu.com/p/28633100)
@@ -106,6 +93,7 @@
 
 14.[从0开始敲次世代引擎（十四）--Windows下用directX 12 画图](https://zhuanlan.zhihu.com/p/28809434)
 
+18.[从0开始敲次世代引擎（十八）--游戏引擎内存管理初入](https://zhuanlan.zhihu.com/p/29023579)
 
 
 
