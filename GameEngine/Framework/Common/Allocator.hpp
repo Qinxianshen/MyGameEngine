@@ -1,13 +1,5 @@
 #include <cstddef>
-#include <cstdint>
-
-
-/*
- 基于块链（block chain）的内存管理方法
- 提高程序在CPU端的执行效率的一个重要手段，就是要减少系统调用。在程序初始化阶段就一次申领所需的资源，然后自己内部进行分配管理
-*/
-
-
+#include <stdint.h>
 
 namespace My {
 
@@ -30,6 +22,7 @@ namespace My {
                 static const uint8_t PATTERN_ALLOC = 0xFD;
                 static const uint8_t PATTERN_FREE  = 0xFE;
 
+                Allocator();
                 Allocator(size_t data_size, size_t page_size, size_t alignment);
                 ~Allocator();
 
@@ -77,3 +70,4 @@ namespace My {
                 Allocator &operator=(const Allocator &rhs);
     };
 }
+

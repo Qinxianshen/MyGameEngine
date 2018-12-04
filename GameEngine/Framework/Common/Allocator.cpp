@@ -8,6 +8,13 @@
 
 using namespace My;
 
+My::Allocator::Allocator()
+        : m_pPageList(nullptr), m_pFreeList(nullptr), 
+        m_szDataSize(0), m_szPageSize(0), 
+        m_szAlignmentSize(0), m_szBlockSize(0), m_nBlocksPerPage(0) 
+{
+}
+
 My::Allocator::Allocator(size_t data_size, size_t page_size, size_t alignment)
         : m_pPageList(nullptr), m_pFreeList(nullptr)
 {
@@ -146,8 +153,12 @@ void My::Allocator::FillAllocatedBlock(BlockHeader *pBlock)
     std::memset(reinterpret_cast<uint8_t*>(pBlock) + m_szBlockSize - m_szAlignmentSize, 
                 PATTERN_ALIGN, m_szAlignmentSize);
 }
+ 
 #endif
+
 My::BlockHeader* My::Allocator::NextBlock(BlockHeader *pBlock)
 {
     return reinterpret_cast<BlockHeader *>(reinterpret_cast<uint8_t*>(pBlock) + m_szBlockSize);
 }
+
+

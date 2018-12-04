@@ -2537,3 +2537,4 @@ inline HRESULT D3DX12ParsePipelineStream(const D3D12_PIPELINE_STATE_STREAM_DESC&
 #endif //__D3DX12_H__
 
 
+
